@@ -298,10 +298,10 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-2);
 }
 
-.hover-underline:is(:hover, :focus-visible)::after {
+/* .hover-underline:is(:hover, :focus-visible)::after {
   transform: scaleX(1);
   opacity: 1;
-}
+} */
 
 .contact-number::after { bottom: -5px; }
 
@@ -369,14 +369,14 @@ body.nav-active { overflow: hidden; }
   color: var(--smoky-black-1);
 }
 
-.btn:is(:hover, :focus-visible)::before { bottom: -50%; }
+/* .btn:is(:hover, :focus-visible)::before { bottom: -50%; }
 
 .btn:is(:hover, :focus-visible) .text-1 { transform: translateY(-40px); }
 
 .btn:is(:hover, :focus-visible) .text-2 {
   top: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .btn-secondary {
   background-color: var(--gold-crayola);
@@ -426,10 +426,10 @@ body.nav-active { overflow: hidden; }
   transform: skewX(-0.08turn) translateX(-180%);
 }
 
-.hover\:shine:is(:hover, :focus-within)::after {
+/* .hover\:shine:is(:hover, :focus-within)::after {
   transform: skewX(-0.08turn) translateX(275%);
   transition: var(--transition-3);
-}
+} */
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
@@ -642,13 +642,13 @@ body.nav-active { overflow: hidden; }
   background-color: var(--white);
   margin-block: 4px;
   transform-origin: left;
-  animation: menuBtn 400ms ease-in-out alternate infinite;
+  /* animation: menuBtn 400ms ease-in-out alternate infinite; */
 }
 
-@keyframes menuBtn {
+/* @keyframes menuBtn {
   0% { transform: scaleX(1); }
   100% { transform: scaleX(0.5); }
-}
+} */
 
 .nav-open-btn .line-2 { animation-delay: 150ms; }
 
@@ -821,10 +821,10 @@ body.nav-active { overflow: hidden; }
   animation: smoothScale 7s linear forwards;
 }
 
-@keyframes smoothScale {
+/* @keyframes smoothScale {
   0% { transform: scale(1); }
   100% { transform: scale(1.15); }
-}
+} */
 
 .hero .section-subtitle::after { margin-block: 14px 20px; }
 
@@ -871,7 +871,7 @@ body.nav-active { overflow: hidden; }
 .hero .slider-item.active .slider-reveal {
   animation: sliderReveal 1s ease forwards;
 }
-
+/* 
 @keyframes sliderReveal {
   0% {
     transform: translateY(30px);
@@ -882,7 +882,7 @@ body.nav-active { overflow: hidden; }
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .hero .slider-item.active .section-subtitle { animation-delay: 500ms; }
 
